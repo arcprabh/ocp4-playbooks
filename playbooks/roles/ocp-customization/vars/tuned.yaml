@@ -13,8 +13,8 @@
 sysctl_options:
   -  kernel.shmmni = 16384
   -  net.ipv4.tcp_tw_reuse = 1
-  -  net.ipv4.conf.all.arp_announce=1
-  -  net.ipv4.conf.all.arp_ignore=2
+  -  net.ipv4.conf.all.arp_announce = 1
+  -  net.ipv4.conf.all.arp_ignore = 2
 
 match_array:
   - label: node-role.kubernetes.io/master
